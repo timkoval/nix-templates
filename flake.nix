@@ -65,6 +65,14 @@
           path = ./python;
           description = "Python development environment";
         };
+        rust-stable = {
+          path = ./rust-stable;
+          description = "Rust development environment";
+        };
+        rust-nightly = {
+          path = ./rust-nightly;
+          description = "Rust Nightly development environment";
+        };
 
         # Aliases
         # rt = rust-toolchain;
