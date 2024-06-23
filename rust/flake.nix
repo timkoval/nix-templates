@@ -34,6 +34,9 @@
             cargo-watch
             rust-analyzer
           ];
+          shellHook = ''
+            exec nu
+          '';
         };
       });
     };
