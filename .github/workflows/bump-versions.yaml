@@ -1,0 +1,9 @@
+name: Bump Versions
+run-name: Bumping versions with GitHub Actions 🚀
+on: [push]
+jobs:
+  bump-rust:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Bump rust version in `rust-toolchain.toml` file
+        uses: a-kenji/update-rust-toolchain@v1.1
