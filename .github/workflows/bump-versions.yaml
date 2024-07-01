@@ -1,6 +1,8 @@
 name: Bump Versions
 run-name: Bumping versions with GitHub Actions 🚀
 on: [push]
+env:
+  RUST_TOOLCHAIN_FILE: ./rust/rust-toolchain.toml
 jobs:
   bump-rust:
     runs-on: ubuntu-latest
