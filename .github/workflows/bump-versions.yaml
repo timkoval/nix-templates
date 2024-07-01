@@ -4,7 +4,8 @@ on: [push]
 jobs:
   bump-rust:
     runs-on: ubuntu-latest
+    steps:
       - name: Checkout repository
-        uses: actions/checkout@v3   steps:
+        uses: actions/checkout@v3
       - name: Bump rust version in `rust-toolchain.toml` file
         uses: a-kenji/update-rust-toolchain@v1.1
