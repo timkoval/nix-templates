@@ -46,7 +46,7 @@
             rust-analyzer
           ];
           shellHook = ''
-            exec nu
+            exec zsh
           '';
         };
       });

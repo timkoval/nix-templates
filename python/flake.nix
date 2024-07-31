@@ -16,7 +16,7 @@
           packages = with pkgs; [ python311 virtualenv poetry ] ++
             (with pkgs.python311Packages; [ pip ]);
           shellHook = ''
-            exec nu
+            exec zsh
           '';
         };
       });
