@@ -45,9 +45,6 @@
             cargo-watch
             rust-analyzer
           ];
-          shellHook = ''
-            exec zsh
-          '';
         };
       });
     };
