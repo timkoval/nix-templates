@@ -70,6 +70,11 @@
           description = "Rust development environment";
         };
 
+        node = {
+          path = ./node;
+          description = "Node JS development environment";
+        };
+
         # Aliases
         # rt = rust-toolchain;
       };
