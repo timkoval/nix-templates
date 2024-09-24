@@ -75,6 +75,11 @@
           description = "Node JS development environment";
         };
 
+        bun = {
+          path = ./bun;
+          description = "Bun JS development environment";
+        };
+
         # Aliases
         # rt = rust-toolchain;
       };
