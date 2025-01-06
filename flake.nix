@@ -80,6 +80,11 @@
           description = "Bun JS development environment";
         };
 
+        c-cpp = {
+          path = ./c-cpp;
+          description = "C/C++ development environment";
+        };
+
         # Aliases
         # rt = rust-toolchain;
       };
